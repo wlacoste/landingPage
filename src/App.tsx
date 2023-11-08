@@ -1,13 +1,16 @@
 import "./App.css";
 import NavBar from "./components/NavBar";
+import PrimerSeccion from "./pages/primerSeccion";
+import SegundaSeccion from "./pages/segundaSeccion";
+import TerceraSeccion from "./pages/terceraSeccion";
 
 function App() {
   return (
     <>
       <NavBar />
-      <div>Seccion1</div>
-      <div>Seccion2</div>
-      <div>Seccion3</div>
+      <PrimerSeccion />
+      <SegundaSeccion />
+      <TerceraSeccion />
       <div>Seccion4</div>
       <div>Footer</div>
     </>
