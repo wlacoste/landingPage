@@ -1,8 +1,8 @@
 import { Box } from "@mui/material";
-import stlyes from "./index.module.scss";
+import styles from "./index.module.scss";
 
 const PrimerSeccion = () => {
-  return <Box className={stlyes.seccion}>PrimerSeccion</Box>;
+  return <Box className={styles.seccion}>PrimerSeccion</Box>;
 };
 
 export default PrimerSeccion;
