@@ -1,3 +1,4 @@
+import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/NavBar";
 import ParallaxPage from "./components/Parallax";
@@ -8,13 +9,15 @@ import TerceraSeccion from "./pages/terceraSeccion";
 function App() {
   return (
     <>
-      <NavBar />
-      {/* <ParallaxPage /> */}
-      <PrimerSeccion />
-      <SegundaSeccion />
-      <TerceraSeccion />
-      <div>Seccion4</div>
-      <div>Footer</div>
+      <BrowserRouter>
+        <NavBar />
+        {/* <ParallaxPage /> */}
+        <PrimerSeccion />
+        <SegundaSeccion />
+        <TerceraSeccion />
+        <div>Seccion4</div>
+        <div>Footer</div>
+      </BrowserRouter>
     </>
   );
 }

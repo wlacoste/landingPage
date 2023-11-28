@@ -1,3 +1,23 @@
+.contenedorParallax {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.95) 2%,
+      transparent 2%,
+      transparent 98%,
+      rgba(0, 0, 0, 0.95) 98%
+    ),
+    linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.95) 2%,
+      transparent 2%,
+      transparent 98%,
+      rgba(0, 0, 0, 0.95) 98%
+    );
+}
+
+.ParallaxLayer {
+  background-color: aqua;
+}
 .texto {
   color: blue;
   height: 100%;
